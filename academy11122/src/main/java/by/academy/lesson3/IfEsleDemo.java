@@ -4,7 +4,7 @@ public class IfEsleDemo {
 
 	public static void main(String[] args) {
 
-		int temperature = -11;
+		int temperature = -13;
 
 		if (temperature < -10) {
 			System.out.println("Надеть очень теплую шапку -10");

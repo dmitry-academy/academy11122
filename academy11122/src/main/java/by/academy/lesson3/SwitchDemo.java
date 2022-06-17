@@ -3,7 +3,7 @@ package by.academy.lesson3;
 public class SwitchDemo {
 	public static void main(String... args) {
 
-		int i = 2;
+		int i = 6;
 
 		switch (i) {
 		case 1:
