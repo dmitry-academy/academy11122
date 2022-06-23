@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class Array1 {
 	public static void main(String[] args) {
 		int[] monthDays = new int[12];
+
+		System.out.println(monthDays);
 		System.out.println(Arrays.toString(monthDays));
 
 		monthDays[0] = 31;

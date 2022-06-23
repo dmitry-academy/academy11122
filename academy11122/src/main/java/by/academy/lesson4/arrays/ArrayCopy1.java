@@ -10,7 +10,7 @@ public class ArrayCopy1 {
 		System.out.println("arraySource: " + Arrays.toString(arraySource));
 		System.out.println("arrayDestination: " + Arrays.toString(arrayDestination));
 
-		System.arraycopy(arraySource, 2, arrayDestination, 2, 2);
+		System.arraycopy(arraySource, 0, arrayDestination, 0, arraySource.length);
 		System.out.println("arrayDestination after arrayCopy: " + Arrays.toString(arrayDestination));
 
 	}

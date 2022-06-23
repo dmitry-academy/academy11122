@@ -3,6 +3,7 @@ package by.academy.lesson4.arrays;
 public class Array3 {
 	public static void main(String[] args) {
 		int[] testScores = { 1, 2, 3, 4 };
+
 		char[] testChars = { 'c', 67, 111, 32 };
 
 		for (int i = 0; i < testScores.length; i++) {

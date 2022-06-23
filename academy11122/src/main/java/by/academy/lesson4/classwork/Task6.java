@@ -1,7 +1,5 @@
 package by.academy.lesson4.classwork;
 
-import java.math.BigDecimal;
-
 public class Task6 {
 
 	public static void main(String[] args) {
