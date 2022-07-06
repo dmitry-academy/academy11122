@@ -14,7 +14,7 @@ public class WrapperDemo {
 	}
 
 	private static int test1() {
-		Integer i = null;
+		Integer i = 0;
 		return i;
 	}
 
