@@ -1,7 +1,6 @@
 package by.academy.lesson7;
 
 public class F extends E {
-	int i = 10;
 
 	public F() {
 		super();
@@ -13,4 +12,8 @@ public class F extends E {
 		this.i = i;
 		System.out.println("В конструкторе F");
 	}
+
+	
+
+	
 }

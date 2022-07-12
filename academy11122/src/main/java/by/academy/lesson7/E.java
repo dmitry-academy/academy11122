@@ -7,4 +7,12 @@ public class E {
 		super();
 		System.out.println("В конструкторе E");
 	}
+
+	public int getI() {
+		return i;
+	}
+
+	public void setI(int i) {
+		this.i = i;
+	}
 }

@@ -4,6 +4,7 @@ public class DifferentBoxDemo2 {
 	public static void main(String[] args) {
 		Box box = new Box(15, 10, 25);
 		Box heavyBox = new HeavyBox(15, 10, 20, 5);
+		
 		Box redBox = new ColorBox(25, 12, 20, "красный");
 
 		((HeavyBox) heavyBox).printSomething();

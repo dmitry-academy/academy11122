@@ -3,6 +3,7 @@ package by.academy.lesson7.oop.modificators;
 public class Modificators {
 
 	private String[] array;
+	
 	public int publicVar; // открытый уровень доступа
 	private int privateVar; // закрытый уровень доступа
 	int defaultVar; // уровень доступа по умолчанию

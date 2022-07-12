@@ -7,6 +7,7 @@ public class ModificatorsDemo {
 //		ModificatorsChild child = new ModificatorsChild();
 //		child.defaultVar = 10;
 
+//		m.privateVar = 10;
 		m.defaultVar = 10;
 		m.publicVar = 10;
 		m.protectedVar = 10;
