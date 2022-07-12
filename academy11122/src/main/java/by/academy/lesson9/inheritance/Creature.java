@@ -1,14 +1,13 @@
 package by.academy.lesson9.inheritance;
 
-public class Creature {
+public abstract class Creature {
 
 	int age = 0;
 
-	void live() {
-		System.out.println("Живем!");
-	}
+	public abstract void live();
 
 	private void die() {
 		System.out.println("Не Живем!");
 	}
+
 }

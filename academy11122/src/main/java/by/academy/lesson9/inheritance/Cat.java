@@ -13,7 +13,7 @@ public class Cat extends Animal {
 	}
 
 	@Override
-	void live() {
+	public void live() {
 		System.out.println("Кот живет!");
 	}
 

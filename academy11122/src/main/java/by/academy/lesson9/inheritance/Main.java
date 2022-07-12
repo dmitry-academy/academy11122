@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		System.out.println("Creature");
-		Creature creature = new Creature();
+		Creature creature = new Cat();
 		creature.live();
 
 		System.out.println("Animal");

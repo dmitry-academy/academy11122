@@ -1,9 +1,15 @@
 package by.academy.lesson10.finals;
 
 public class FinalVariables {
-	public static final int FILE_NEW = 1;
+
+	public final static int FILE_NEW = 1;
 	private final String someString = "something";
 	public static final double DISCOUNT = 0.5;
+
+	public FinalVariables() {
+
+	}
+
 
 	public static void print(final double d) {
 
