@@ -17,5 +17,11 @@ public class WithLocalDateDemo {
         System.out.println("december2001 " + december2001);
         System.out.println("february2001 " + february2001);
         System.out.println("xmas2001 " + xmas2001);
+        
+        System.out.println(newYear2001.isAfter(newYear2003));
+        System.out.println(newYear2001.isBefore(newYear2003));
+        System.out.println(newYear2001.isEqual(newYear2003));
+
+        
     }
 }

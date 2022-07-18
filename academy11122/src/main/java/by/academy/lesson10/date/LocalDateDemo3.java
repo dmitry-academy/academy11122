@@ -5,7 +5,7 @@ import java.time.temporal.ChronoField;
 
 public class LocalDateDemo3 {
 	public static void main(String[] args) {
-		LocalDate today = LocalDate.now();
+		LocalDate today = LocalDate.of(2022, 2, 1);
 
 		int year = today.get(ChronoField.YEAR);
 		int month = today.get(ChronoField.MONTH_OF_YEAR);
@@ -13,6 +13,8 @@ public class LocalDateDemo3 {
 		int dayMonth = today.get(ChronoField.DAY_OF_MONTH);
 		int dayWeek = today.get(ChronoField.DAY_OF_WEEK);
 
+		LocalDate dte = today.withYear(2000);
+		System.out.println(dte.isLeapYear());
 		System.out.println("Год: " + year);
 		System.out.println("Месяц: " + month);
 		System.out.println("День в году: " + dayYear);

@@ -1,12 +1,14 @@
 package by.academy.lesson10.homework;
 
+import java.util.regex.Pattern;
+
 public class AmericanPhoneValidator implements Validator {
 
-	@Override
-	public boolean isValid(String string) {
-		// reg exp here
+	private Pattern pattern = Pattern.compile("regexp");
 
-		return false;
+	@Override
+	public Pattern getPattern() {
+		return pattern;
 	}
 
 }

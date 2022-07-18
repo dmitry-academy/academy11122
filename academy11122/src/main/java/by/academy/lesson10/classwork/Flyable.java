@@ -7,7 +7,7 @@ public interface Flyable {
 	}
 
 	default void stop() {
-		System.out.println("Flyable default method start");
+		System.out.println("Flyable default method stop");
 	}
 
 	void fly();
