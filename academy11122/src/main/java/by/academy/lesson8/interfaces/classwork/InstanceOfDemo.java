@@ -1,8 +1,8 @@
 package by.academy.lesson8.interfaces.classwork;
 
-import by.academy.lesson8.interfaces.SomeInterface;
-import by.academy.lesson8.interfaces.SomeInterfaceImpl1;
-import by.academy.lesson8.interfaces.SomeInterfaceImpl2;
+import by.academy.lesson10.interfaces.SomeInterface;
+import by.academy.lesson10.interfaces.SomeInterfaceImpl1;
+import by.academy.lesson10.interfaces.SomeInterfaceImpl2;
 
 public class InstanceOfDemo {
 	public static void main(String... args) {
