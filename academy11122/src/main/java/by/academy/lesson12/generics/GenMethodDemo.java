@@ -27,7 +27,7 @@ public class GenMethodDemo {
 			System.out.println("2 входит в массив intArray");
 		}
 
-		if (!isIn(2, intArray)) {
+		if (!isIn(7, intArray)) {
 			System.out.println("7 не входит в intArray");
 		}
 		System.out.println();
