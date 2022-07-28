@@ -1,9 +1,14 @@
 package by.academy.lesson13.innerclasses;
 
+import java.util.Comparator;
+
+import by.academy.lesson3.cat.Cat;
+
 public class City {
 
 	public int i = 1;
 	public static int j = 2;
+	
 
 	public class District {
 
