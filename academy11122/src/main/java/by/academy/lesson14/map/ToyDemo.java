@@ -23,6 +23,7 @@ public class ToyDemo {
 		map1.put("a", t1);
 		map1.put("b", t2);
 		map1.put("c", t3);
+		map1.put("d", new Toy());
 
 		printKey(map1);
 		printValue(map1);

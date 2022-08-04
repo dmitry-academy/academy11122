@@ -17,7 +17,7 @@ public class LinkedHashSetDemo {
 		linkedHashSet.add("Oмeгa");
 		linkedHashSet.add("Oмeгa");
 
-
 		System.out.println(linkedHashSet);
+		
 	}
 }

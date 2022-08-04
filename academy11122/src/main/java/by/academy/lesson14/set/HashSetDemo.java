@@ -33,6 +33,7 @@ public class HashSetDemo {
 		hashSetCats.add(c6);
 
 		System.out.println(hashSetCats.size());
+		System.out.println(hashSetCats);
 
 	}
 }
