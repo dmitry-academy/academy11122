@@ -1,5 +1,6 @@
 package by.academy.lesson18.methods;
 
+import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -11,6 +12,8 @@ public class ReflectionInvokeExample {
 		Car car = new Car(100, "AA180A1");
 		Class<? extends Car> carClass = car.getClass();
 
+//		Constructor<Car> c = carClass.getConstructor();
+//		Car car1 = c.newInstance(args);
 		Method getHorsepowerMethod;
 		try {
 			getHorsepowerMethod = carClass.getMethod("getHorsepower");
